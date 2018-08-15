@@ -39,7 +39,7 @@ function createNewGlass(glassNumber)
 
 }
 */
-function plusOne(elementid) {
+function plusOne() {
 	localStorage.setItem("count", (Number(localStorage.getItem("count")) + 1));
 	switch (Number(localStorage.getItem("count"))){
 	case 0:
