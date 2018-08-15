@@ -44,25 +44,25 @@ function plusOne() {
 	switch (Number(localStorage.getItem("count"))){
 	case 0:
 	console.log("at 0");
-	document.getElementById(elementid).src="Empty-Glass.jpg";
+	document.getElementById("glass").src="Empty-Glass.jpg";
 	break;
 	case 1:
-	document.getElementById(elementid).src="1Glass.jpg";
+	document.getElementById("glass").src="1Glass.jpg";
 	break;
 	case 2:
-	document.getElementById(elementid).src="2Glasses.jpg";
+	document.getElementById("glass").src="2Glasses.jpg";
 	break;
 	case 3:
-	document.getElementById(elementid).src="3Glasses.jpg";
+	document.getElementById("glass").src="3Glasses.jpg";
 	break;
 	case 4:
-	document.getElementById(elementid).src="4Glasses.jpg";
+	document.getElementById("glass").src="4Glasses.jpg";
 	break;
 	case 5:
-	document.getElementById(elementid).src="5Glasses.jpg";
+	document.getElementById("glass").src="5Glasses.jpg";
 	break;
 	case 6:
-	document.getElementById(elementid).src="6Glasses.jpg";
+	document.getElementById("glass").src="6Glasses.jpg";
 	break;
 }
 	update();
