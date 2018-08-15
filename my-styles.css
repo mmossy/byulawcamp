@@ -1,0 +1,17 @@
+
+body {
+	text-align: center;
+	margin-top: 50px;
+}
+
+button,
+button:focus {
+	touch-action: manipulation;
+	background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
