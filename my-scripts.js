@@ -20,13 +20,13 @@ update();
 
 //add one to count
 
-function count()
+/*function count()
 {
 	if (Number(localStorage.getItem("count"))<=6)
 	{
 		localStorage.setItem("glassNumber",0);
 	}
-	
+
 }
 
 function createNewGlass(glassNumber)
@@ -38,6 +38,7 @@ function createNewGlass(glassNumber)
 
 
 }
+*/
 function plusOne(elementid) {
 	localStorage.setItem("count", (Number(localStorage.getItem("count")) + 1));
 	switch (Number(localStorage.getItem("count"))){
